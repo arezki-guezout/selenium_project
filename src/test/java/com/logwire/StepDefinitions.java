@@ -11,6 +11,7 @@ import java.time.Duration;
 import org.junit.jupiter.api.Assertions.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.logwire.pages.dashboardPage;
 import com.logwire.pages.loginPage;
@@ -24,6 +25,7 @@ public class StepDefinitions {
     public void setup(){
         driver= new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
         lp= new loginPage(driver);
         dp= new dashboardPage(driver);
     }
@@ -34,8 +36,6 @@ public class StepDefinitions {
         driver = null;
     }
      
-    
-    
 
     @Given("je suis sur la page de {string}")
     public void je_suis_sur_la_page_de(String s) {
@@ -56,6 +56,11 @@ public class StepDefinitions {
     public void je_saisi_le_username_et_mot_de_passe(String s, String s2) {
         lp.saisirUsername(s);
         lp.saisirPassword(s2);
+    }
+
+    @When("je clique sur le bouton de connexion")
+    public void je_clique_sur_le_bouton_de_connexion() {
+        lp.se_connecter();
     }
 
 }

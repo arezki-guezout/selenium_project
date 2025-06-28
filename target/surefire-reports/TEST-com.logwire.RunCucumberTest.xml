@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logwire.RunCucumberTest" time="27.256" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logwire.RunCucumberTest" time="21.031" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire/surefirebooter-20250628175120109_3.jar /home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire 2025-06-28T17-51-19_548-jvmRun1 surefire-20250628175120109_1tmp surefire_0-20250628175120109_2tmp"/>
+    <property name="sun.java.command" value="/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire/surefirebooter-20250628193445499_3.jar /home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire 2025-06-28T19-34-44_569-jvmRun1 surefire-20250628193445499_1tmp surefire_0-20250628193445499_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/test-classes:/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/classes:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-java/4.33.0/selenium-java-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-api/4.33.0/selenium-api-4.33.0.jar:/home/arezki/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.33.0/selenium-chrome-driver-4.33.0.jar:/home/arezki/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.33.0/selenium-chromium-driver-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-json/4.33.0/selenium-json-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.33.0/selenium-manager-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.33.0/selenium-devtools-v135-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.33.0/selenium-devtools-v136-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.33.0/selenium-devtools-v137-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.33.0/selenium-edge-driver-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.33.0/selenium-firefox-driver-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-http/4.33.0/selenium-http-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.33.0/selenium-ie-driver-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.33.0/selenium-remote-driver-4.33.0.jar:/home/arezki/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/home/arezki/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/arezki/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/arezki/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/arezki/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-api/1.50.0/opentelemetry-api-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-context/1.50.0/opentelemetry-context-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.50.0/opentelemetry-exporter-logging-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.50.0/opentelemetry-sdk-common-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.50.0/opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.50.0/opentelemetry-sdk-extension-autoconfigure-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.50.0/opentelemetry-sdk-trace-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.50.0/opentelemetry-sdk-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.50.0/opentelemetry-sdk-metrics-1.50.0.jar:/home/arezki/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.50.0/opentelemetry-sdk-logs-1.50.0.jar:/home/arezki/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-os/4.33.0/selenium-os-4.33.0.jar:/home/arezki/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.33.0/selenium-safari-driver-4.33.0.jar:/home/arezki/.m2/repository/org/seleniumhq/selenium/selenium-support/4.33.0/selenium-support-4.33.0.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/arezki/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/arezki/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/arezki/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/arezki/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/arezki/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/arezki/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/arezki/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/arezki/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.11.1/cucumber-junit-platform-engine-7.11.1.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/arezki/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-suite/1.9.2/junit-platform-suite-1.9.2.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/home/arezki/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/home/arezki/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/arezki/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/arezki/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/arezki/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire/surefirebooter-20250628175120109_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/target/surefire/surefirebooter-20250628193445499_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.15+6-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="arezki"/>
@@ -53,17 +53,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Connexion via IHM" classname="connexion orangehrm" time="6.959">
-    <error message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=138.0.7204.49)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-60-generic&apos;, java.version: &apos;17.0.15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2a8b112ac19adf87e88244cde962a2a0, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37095/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2a8b112ac19adf87e88244cde962a2a0" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+  <testcase name="Connexion via IHM" classname="connexion orangehrm" time="18.453">
+    <error message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=138.0.7204.49)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-60-generic&apos;, java.version: &apos;17.0.15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [24753be88806c66d6369e4a6d14760b7, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46385/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 24753be88806c66d6369e4a6d14760b7" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
 invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=138.0.7204.49)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-60-generic', java.version: '17.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2a8b112ac19adf87e88244cde962a2a0, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37095/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a8b112ac19adf87e88244cde962a2a0
+Command: [24753be88806c66d6369e4a6d14760b7, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46385/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24753be88806c66d6369e4a6d14760b7
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -83,14 +83,15 @@ Session ID: 2a8b112ac19adf87e88244cde962a2a0
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.logwire.pages.dashboardPage.isPictureDisplayed(dashboardPage.java:20)
+	at com.logwire.pages.dashboardPage.isPictureDisplayed(dashboardPage.java:23)
 	at com.logwire.StepDefinitions.j_accede_a_mon_compte(StepDefinitions.java:47)
-	at ✽.j accede a mon compte(classpath:com/logwire/login.feature:7)
+	at ✽.j accede a mon compte(classpath:com/logwire/login.feature:8)
 ]]></error>
     <system-out><![CDATA[
 Scenario: Connexion via IHM                                                                         &amp#27;[90m# com/logwire/login.feature:4&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page de &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"&amp#27;[0m &amp#27;[90m# com.logwire.StepDefinitions.je_suis_sur_la_page_de(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m&amp#27;[32m et mot de passe &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m                                      &amp#27;[90m# com.logwire.StepDefinitions.je_saisi_le_username_et_mot_de_passe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje clique sur le bouton de connexion&amp#27;[0m                                                         &amp#27;[90m# com.logwire.StepDefinitions.je_clique_sur_le_bouton_de_connexion()&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mj accede a mon compte&amp#27;[0m                                                                        &amp#27;[90m# com.logwire.StepDefinitions.j_accede_a_mon_compte()&amp#27;[0m
       &amp#27;[31morg.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=138.0.7204.49)
@@ -98,9 +99,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-60-generic', java.version: '17.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2a8b112ac19adf87e88244cde962a2a0, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37095/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a8b112ac19adf87e88244cde962a2a0
+Command: [24753be88806c66d6369e4a6d14760b7, findElement {value=img.oxd-userdropdown-img[alt=profile picture], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46385/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24753be88806c66d6369e4a6d14760b7
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,12 +121,12 @@ Session ID: 2a8b112ac19adf87e88244cde962a2a0
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.logwire.pages.dashboardPage.isPictureDisplayed(dashboardPage.java:20)
+	at com.logwire.pages.dashboardPage.isPictureDisplayed(dashboardPage.java:23)
 	at com.logwire.StepDefinitions.j_accede_a_mon_compte(StepDefinitions.java:47)
-	at ✽.j accede a mon compte(classpath:com/logwire/login.feature:7)
+	at ✽.j accede a mon compte(classpath:com/logwire/login.feature:8)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[juin 28, 2025 5:51:22 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+    <system-err><![CDATA[juin 28, 2025 7:34:47 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 AVERTISSEMENT: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Windows32BitFunctionMapper'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -236,7 +237,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.FunctionMapper
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 94 more
 
-juin 28, 2025 5:51:22 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+juin 28, 2025 7:34:47 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 AVERTISSEMENT: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Jvm'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -347,83 +348,11 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
 	... 94 more
 
-juin 28, 2025 5:51:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
-]]></system-err>
-  </testcase>
-  <testcase name="Tentative de connexion incorrecte" classname="connexion orangehrm" time="18.046">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.oxd-alert.oxd-alert--error&quot;}&#10;  (Session info: chrome=138.0.7204.49)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-60-generic&apos;, java.version: &apos;17.0.15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [87047f74ee42ce554a063bf38ab5b8d3, findElement {value=div.oxd-alert.oxd-alert--error, using=css selector}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42447/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 87047f74ee42ce554a063bf38ab5b8d3" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"div.oxd-alert.oxd-alert--error"}
-  (Session info: chrome=138.0.7204.49)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-60-generic', java.version: '17.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87047f74ee42ce554a063bf38ab5b8d3, findElement {value=div.oxd-alert.oxd-alert--error, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42447/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87047f74ee42ce554a063bf38ab5b8d3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.logwire.pages.loginPage.gotErrorMessage(loginPage.java:42)
-	at com.logwire.StepDefinitions.j_obtient_un_message_d_erreur(StepDefinitions.java:52)
-	at ✽.j obtient un message d erreur(classpath:com/logwire/login.feature:12)
-]]></error>
-    <system-out><![CDATA[
-Scenario: Tentative de connexion incorrecte                                                         &amp#27;[90m# com/logwire/login.feature:9&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page de &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"&amp#27;[0m &amp#27;[90m# com.logwire.StepDefinitions.je_suis_sur_la_page_de(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin_wrong"&amp#27;[0m&amp#27;[32m et mot de passe &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m                                &amp#27;[90m# com.logwire.StepDefinitions.je_saisi_le_username_et_mot_de_passe(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mj obtient un message d erreur&amp#27;[0m                                                                &amp#27;[90m# com.logwire.StepDefinitions.j_obtient_un_message_d_erreur()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.oxd-alert.oxd-alert--error"}
-  (Session info: chrome=138.0.7204.49)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-60-generic', java.version: '17.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [87047f74ee42ce554a063bf38ab5b8d3, findElement {value=div.oxd-alert.oxd-alert--error, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42447/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 87047f74ee42ce554a063bf38ab5b8d3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.logwire.pages.loginPage.gotErrorMessage(loginPage.java:42)
-	at com.logwire.StepDefinitions.j_obtient_un_message_d_erreur(StepDefinitions.java:52)
-	at ✽.j obtient un message d erreur(classpath:com/logwire/login.feature:12)
-&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[juin 28, 2025 5:51:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+juin 28, 2025 7:34:54 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+AVERTISSEMENT: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+juin 28, 2025 7:34:54 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+AVERTISSEMENT: Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+juin 28, 2025 7:35:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 AVERTISSEMENT: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
 ]]></system-err>
   </testcase>

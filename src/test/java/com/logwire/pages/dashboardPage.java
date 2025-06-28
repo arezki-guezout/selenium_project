@@ -9,6 +9,9 @@ public class dashboardPage {
     //WebDriver driver;
     @FindBy(css = "img.oxd-userdropdown-img[alt=profile picture]")
     WebElement photoProfil;
+    @FindBy(css="a.oxd-main-menu-item")
+    WebElement adminMenu;
+    
 
     public dashboardPage(WebDriver driver)
     {
