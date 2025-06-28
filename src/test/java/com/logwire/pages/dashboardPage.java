@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class dashboardPage {
-    WebDriver driver;
+    //WebDriver driver;
     @FindBy(css = "img.oxd-userdropdown-img[alt=profile picture]")
     WebElement photoProfil;
 

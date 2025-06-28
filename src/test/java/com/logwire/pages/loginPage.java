@@ -6,14 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class loginPage {
-    WebDriver driver;
+    //WebDriver driver;
     @FindBy(css = "input[name=username]")
     WebElement username;
 
     @FindBy(css= "input[name=password]")
     WebElement password;  
 
-    @FindBy(css= "button[type=submit]")
+    @FindBy(css= "button[type='submit']")
     WebElement login;
 
     @FindBy(css= "div.oxd-alert.oxd-alert--error")

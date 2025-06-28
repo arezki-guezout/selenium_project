@@ -18,10 +18,14 @@ import com.logwire.pages.loginPage;
 public class StepDefinitions {
 
     WebDriver driver;
+    loginPage lp;
+    dashboardPage dp;
     @Before
     public void setup(){
         driver= new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        lp= new loginPage(driver);
+        dp= new dashboardPage(driver);
     }
     @After
     public void tearDown(){
@@ -30,8 +34,8 @@ public class StepDefinitions {
         driver = null;
     }
      
-    loginPage lp= new loginPage(driver);
-    dashboardPage dp= new dashboardPage(driver);
+    
+    
 
     @Given("je suis sur la page de {string}")
     public void je_suis_sur_la_page_de(String s) {
