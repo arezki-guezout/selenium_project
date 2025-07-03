@@ -1,4 +1,6 @@
-/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/StepDefinitions.java
+/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/pages/adminPage.java
 /home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/pages/dashboardPage.java
+/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/hooks/hooks.java
 /home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/RunCucumberTest.java
 /home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/pages/loginPage.java
+/home/arezki/LogWire/Testing/Selenium/tp_weekend/weekend/src/test/java/com/logwire/steps/StepDefinitions.java

@@ -21,8 +21,6 @@ public class loginPage {
     @FindBy(css= "div.oxd-alert.oxd-alert--error")
     WebElement errorMessage;
 
-    
-
     public loginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -37,11 +35,17 @@ public class loginPage {
     }
     public void se_connecter()
     {
-        //this.login.click();
-        this.password.sendKeys(Keys.ENTER);
+        this.login.click();
     }
     public boolean gotErrorMessage()
     {
         return errorMessage.isDisplayed();
+    }
+
+    public void doLogin(String username, String password)
+    {
+        saisirUsername(username);
+        saisirPassword(password);
+        se_connecter();
     }
 }
